@@ -1,0 +1,11 @@
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\bin\Debug\Autorizacion_compras.exe.config
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\bin\Debug\Autorizacion_compras.exe
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\bin\Debug\Autorizacion_compras.pdb
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\bin\Debug\MySql.Data.dll
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\bin\Debug\MySql.Data.xml
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\obj\Debug\Autorizacion_compras.csprojResolveAssemblyReference.cache
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\obj\Debug\Autorizacion_compras.Properties.Resources.resources
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\obj\Debug\Autorizacion_compras.csproj.GenerateResource.Cache
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\obj\Debug\Autorizacion_compras.exe
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\obj\Debug\Autorizacion_compras.pdb
+C:\Users\Andre-PC\Desktop\Analisis2\Proyecto 2\Navegador\Autorizacion_compras\Autorizacion_compras\obj\Debug\Autorizacion_compras.Form1.resources
