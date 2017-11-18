@@ -165,7 +165,105 @@ namespace Autorizacion_compras
                     }
                  
 
+                }else if ((tmonedaO == "Euros" || tmonedaO == "euros") && (tmonedaD == "Quetzales" || tmonedaD == "quetzales"))//Verificacion de tipos de moneda
+                {
+                    MessageBox.Show("La cuenta de origen esta en euros, se realizara la conversion a quetzales");
+                    double valor, conver;
+                    //Calculo nuevo saldo de origen
+                    negocios.ObtenerValorM(tmonedaO);//Funcion para obtener el valor del la moneda AUN NO FUNCIONAL
+                    valor = 8.64;
+                    conver = traslado * valor; //Conversion de monedas para transaccion
+                    if (saldoO < conver)
+                    {
+                        MessageBox.Show("El saldo de la cuenta" + noCuenO + " es menor a la transaccion, COMPRA NO AUTORIZADA");
+                    }
+                    else
+                    {
+                        NuevoSaldoO = saldoO - traslado; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenO, NuevoSaldoO); //Traslados
+
+                        //Calculo nuevo saldo de destino
+                        NuevoSaldoD = saldoD + conver; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenD, NuevoSaldoD); //Traslados
+                        MessageBox.Show("COMPRA AUTORIZADA");
+                    }
+
+
+                }else if ((tmonedaO == "Quetzales" || tmonedaO == "quetzales") && (tmonedaD == "Euros" || tmonedaD == "euros"))//Verificacion de tipos de moneda
+                {
+                    MessageBox.Show("La cuenta de origen esta en quetzales, se realizara la conversion a euros");
+                    double valor, conver;
+                    //Calculo nuevo saldo de origen
+                    negocios.ObtenerValorM(tmonedaO);//Funcion para obtener el valor del la moneda AUN NO FUNCIONAL
+                    valor = 0.12;
+                    conver = traslado * valor; //Conversion de monedas para transaccion
+                    if (saldoO < conver)
+                    {
+                        MessageBox.Show("El saldo de la cuenta" + noCuenO + " es menor a la transaccion, COMPRA NO AUTORIZADA");
+                    }
+                    else
+                    {
+                        NuevoSaldoO = saldoO - traslado; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenO, NuevoSaldoO); //Traslados
+
+                        //Calculo nuevo saldo de destino
+                        NuevoSaldoD = saldoD + conver; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenD, NuevoSaldoD); //Traslados
+                        MessageBox.Show("COMPRA AUTORIZADA");
+                    }
+
+
+                }else if ((tmonedaO == "Euros" || tmonedaO == "euros") && (tmonedaD == "Dolares" || tmonedaD == "dolares"))//Verificacion de tipos de moneda
+                {
+                    MessageBox.Show("La cuenta de origen esta en euros, se realizara la conversion a dolares");
+                    double valor, conver;
+                    //Calculo nuevo saldo de origen
+                    negocios.ObtenerValorM(tmonedaO);//Funcion para obtener el valor del la moneda AUN NO FUNCIONAL
+                    valor = 1.17;
+                    conver = traslado * valor; //Conversion de monedas para transaccion
+                    if (saldoO < conver)
+                    {
+                        MessageBox.Show("El saldo de la cuenta" + noCuenO + " es menor a la transaccion, COMPRA NO AUTORIZADA");
+                    }
+                    else
+                    {
+                        NuevoSaldoO = saldoO - traslado; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenO, NuevoSaldoO); //Traslados
+
+                        //Calculo nuevo saldo de destino
+                        NuevoSaldoD = saldoD + conver; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenD, NuevoSaldoD); //Traslados
+                        MessageBox.Show("COMPRA AUTORIZADA");
+                    }
+
+
                 }
+                else if ((tmonedaO == "Dolares" || tmonedaO == "dolares") && (tmonedaD == "Euros" || tmonedaD == "euros"))//Verificacion de tipos de moneda
+                {
+                    MessageBox.Show("La cuenta de origen esta en dolares, se realizara la conversion a euros");
+                    double valor, conver;
+                    //Calculo nuevo saldo de origen
+                    negocios.ObtenerValorM(tmonedaO);//Funcion para obtener el valor del la moneda AUN NO FUNCIONAL
+                    valor = 0.85;
+                    conver = traslado * valor; //Conversion de monedas para transaccion
+                    if (saldoO < conver)
+                    {
+                        MessageBox.Show("El saldo de la cuenta" + noCuenO + " es menor a la transaccion, COMPRA NO AUTORIZADA");
+                    }
+                    else
+                    {
+                        NuevoSaldoO = saldoO - traslado; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenO, NuevoSaldoO); //Traslados
+
+                        //Calculo nuevo saldo de destino
+                        NuevoSaldoD = saldoD + conver; //Calculos de nuevo saldo
+                        datos.trasladoS(noCuenD, NuevoSaldoD); //Traslados
+                        MessageBox.Show("COMPRA AUTORIZADA");
+                    }
+
+
+                }
+
 
             }
             
